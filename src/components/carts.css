@@ -1,0 +1,61 @@
+.food-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24.69px;
+  padding: 10vh;
+}
+.food-menu p {
+  margin: 0;
+}
+.food-card-1 {
+  background-image: url("/Assets/mile2-aseets/cta/kart-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.food-card-2 {
+  background-image: url("/Assets/mile2-aseets/cta/kart-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.food-card-3 {
+  background-image: url("/Assets/mile2-aseets/cta/kart-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.special-card {
+  width: 636px;
+  height: 535.75px;
+  border-radius: 10px;
+}
+.small-card {
+  width: 636px;
+  height: 255.53px;
+  border-radius: 10px;
+}
+.food-carts {
+  display: flex;
+  flex-direction: column;
+  gap: 24.69px;
+}
+.food-card-text {
+  padding: 49px;
+  color: aliceblue;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.food-card-text button {
+  width: 138px;
+  height: 48px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: #ce2829;
+  font-weight: 600;
+  font-family: "Barlow";
+}

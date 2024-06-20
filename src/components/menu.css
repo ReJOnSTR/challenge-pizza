@@ -1,0 +1,98 @@
+.menu-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8%;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-header p {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  width: 1297px;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+  margin: 60px;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+}
+
+.menu-item {
+  border: none;
+  border-radius: 50px;
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 186px;
+  height: 80px;
+  gap: 10px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-family: "Barlow";
+  justify-content: center;
+  font-size: 18px;
+}
+
+.menu-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.food-items {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 1297px;
+}
+
+.food-item {
+  border-radius: 12px;
+  width: 416px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
+  cursor: pointer;
+}
+.food-item p {
+  margin: 0;
+  padding: 0 20px;
+  font-family: "Barlow";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.food-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.food-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b1b1bb2;
+}
+.food-price {
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 700;
+  color: #292929;
+}

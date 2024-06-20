@@ -156,7 +156,7 @@ Tarayıcı açıldıktan sonra da, VSCode'da yeni oluşturduğun cypress klasör
 Zamanı verimli kullanmak için aşağıdaki sırayla geliştirme yapmanı tavsiye ediyoruz.
 
 1.  [Sipariş Onayı](./Interfaces/Iteration-2/Success.png)
-2.  [Anasayfa](./Interfaces/Iteration-2/Home.png)
+2.  [Anasayfa](./Interfa ces/Iteration-2/Home.png)
 3.  [Sipariş Formu](./Interfaces/Iteration-2/OrderPizza.png)
 
 ### Görev 3: IT2 Proje Gereklilikleri
