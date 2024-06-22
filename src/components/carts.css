@@ -59,3 +59,21 @@
   font-weight: 600;
   font-family: "Barlow";
 }
+@media (max-width: 768px) {
+  .food-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .special-card {
+    width: 380px;
+  }
+  .small-card {
+    width: 380px;
+  }
+
+  .food-card-text {
+    padding: 20px;
+  }
+}

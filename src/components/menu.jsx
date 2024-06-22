@@ -32,8 +32,11 @@ const Menu = () => {
     },
   ];
 
-  const handleItemClick = () => {
-    history.push(`/order`);
+  const handleItemClick = (food) => {
+    history.push({
+      pathname: `/order`,
+      state: { food },
+    });
   };
 
   return (
@@ -68,13 +71,13 @@ const Menu = () => {
           </a>
         ))}
       </div>
-
+      <div></div>
       <div className="food-items">
         {foodItems.map((food) => (
           <div
             className="food-item"
             key={food.id}
-            onClick={() => handleItemClick()}
+            onClick={() => handleItemClick(food)}
           >
             <span className="food-img">
               <img src={food.image} alt={food.name} className="food-image" />

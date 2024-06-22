@@ -30,3 +30,13 @@
 .navbar a:hover {
   color: #e74c3c;
 }
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar li {
+    width: 100%;
+  }
+}

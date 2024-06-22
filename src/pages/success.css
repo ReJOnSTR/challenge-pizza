@@ -1,0 +1,129 @@
+.success-container {
+  text-align: center;
+  background-color: #ce2829;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.success-container p {
+  margin: 0;
+}
+.success-header {
+  display: flex;
+  padding: 20px;
+  width: 363px;
+  height: 120px;
+}
+
+.sub-header {
+  font-family: "Satisfy";
+  font-weight: 400;
+  font-size: 32px;
+  color: #fdc913;
+}
+
+.order-status {
+  font-size: 86px;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+}
+.pizza-name {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 22px;
+}
+.order-details {
+  width: 201px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  text-align: left;
+  padding: 30px 0;
+}
+
+.order-details p {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.76px;
+}
+.order-details p span {
+  font-family: "Barlow";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24.76px;
+}
+
+.order-summary {
+  width: 288px;
+  height: 191px;
+  border: 1px solid white;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-summary p {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.76px;
+  display: flex;
+  justify-content: space-between;
+}
+.order-summary p span {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.76px;
+}
+.order-sy {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 15px;
+}
+.order-summary-title {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .success-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .success-header {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+
+  .order-status {
+    font-size: 60px;
+    margin: 10px 0;
+  }
+
+  .pizza-name {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .success-header {
+    width: 80%;
+    padding: 15px;
+  }
+}

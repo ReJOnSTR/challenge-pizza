@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <div style={{ display: "flex" }}>
+        <div className="contact-menus">
           <div className="contact">
             <img src="/Assets/mile2-aseets/footer/logo-footer.svg" alt="" />
             <p

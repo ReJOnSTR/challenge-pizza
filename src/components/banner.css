@@ -42,3 +42,16 @@
   font-size: 18px;
   font-family: "Barlow";
 }
+@media (max-width: 768px) {
+  .header-banner img {
+    width: 300px;
+  }
+
+  .text-1 {
+    font-size: 24px;
+  }
+
+  .text-2 {
+    font-size: 64px;
+  }
+}

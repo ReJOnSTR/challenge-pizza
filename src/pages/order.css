@@ -1,0 +1,423 @@
+.order-header {
+  background-color: #ce2829;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pizza-details {
+  background-color: #faf7f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pizza-details img {
+  width: 595px;
+  object-fit: cover;
+  clip-path: inset(80px 0 0 0);
+  margin-top: -80px;
+}
+
+.pizza-details-p {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 581px;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.p-font {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.food-details-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 581px;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.price {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.food-details-3 {
+  display: flex;
+  gap: 100px;
+}
+
+.description {
+  width: 581px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Barlow", sans-serif;
+  color: #5f5f5f;
+  line-height: 28.8px;
+}
+
+.customization {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.customization hr {
+  width: 581px;
+  color: #5f5f5f80;
+}
+
+.size-crust {
+  display: flex;
+  justify-content: center;
+  width: 590px;
+  gap: 24px;
+}
+
+.size,
+.crust {
+  width: 283px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.size label,
+.crust label {
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.size-options input[type="radio"] {
+  display: none;
+}
+
+.size-options label {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #faf7f2;
+  color: #5f5f5f;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Barlow";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.size-options input[type="radio"]:checked + label {
+  background-color: #ffecc7;
+}
+
+.crust select {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  font-size: 14px;
+  font-family: "Barlow";
+  font-weight: 500;
+  line-height: 1.3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #faf7f2;
+  color: #5f5f5f;
+}
+
+.extras {
+  width: 590px;
+}
+
+.extras-p-1 {
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.extras-p-2 {
+  font-size: 16px;
+  font-family: "Barlow";
+  font-weight: 500;
+  color: #5f5f5f;
+}
+
+.extra-options {
+  width: 590px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 13px;
+}
+
+.extra-options label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-family: "Barlow";
+  font-weight: 700;
+  color: #5f5f5f;
+}
+
+.extra-options input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-custom {
+  width: 45px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #faf7f2;
+  border: 6px solid #faf7f2;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.extra-options label.selected .checkbox-custom {
+  background-color: #ffc700;
+  border-color: #ffc700;
+}
+
+.extra-options label.selected .checkbox-custom::after {
+  content: "✓";
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.note {
+  width: 590px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.note label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.note textarea {
+  width: 100%;
+  height: 56px;
+  background-color: #faf7f2;
+  padding: 10px;
+  border: #faf7f2;
+  border-radius: 6px;
+  resize: none;
+  font-size: 16px;
+  font-family: "Barlow";
+}
+
+.note textarea::placeholder {
+  color: #999;
+}
+
+.quantity {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.quantity button {
+  background-color: #faf7f2;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quantity input {
+  width: 50px;
+  text-align: center;
+  border: none;
+  background-color: #f8f8f8;
+  font-size: 18px;
+  padding: 10px 0;
+}
+
+.total {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 386px;
+  background-color: #faf7f2;
+  border-radius: 6px;
+}
+
+.total-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.total-details p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-family: "Barlow";
+  font-weight: 600;
+  color: #5f5f5f;
+  padding: 0 50px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.total-title {
+  font-family: "Barlow";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.76px;
+  padding-left: 50px;
+  padding-top: 40px;
+  margin: 0;
+}
+
+.total-price {
+  font-weight: 600;
+}
+
+.order-button {
+  background-color: #ffc700;
+  color: #000;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Barlow";
+  margin-top: 15px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.quantity-total {
+  display: flex;
+  width: 590px;
+  gap: 63px;
+}
+
+/* Responsive tasarım için medya sorguları */
+
+/*  (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+  .pizza-details img,
+  .pizza-details-p,
+  .food-details-2,
+  .description,
+  .customization hr,
+  .size-crust,
+  .extras,
+  .extra-options,
+  .note,
+  .quantity-total {
+    width: 90%;
+    max-width: 590px;
+  }
+
+  .extra-options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quantity-total {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .total {
+    width: 100%;
+  }
+}
+
+/*  (768px'e kadar) */
+@media screen and (max-width: 768px) {
+  .pizza-details img {
+    width: 100%;
+    clip-path: none;
+    margin-top: 0;
+  }
+
+  .size-crust {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .size,
+  .crust {
+    width: 100%;
+  }
+
+  .extra-options {
+    grid-template-columns: 1fr;
+  }
+
+  .food-details-3 {
+    gap: 20px;
+  }
+
+  .total-details p {
+    padding: 0 20px;
+  }
+
+  .total-title {
+    padding-left: 20px;
+  }
+}
+
+/*  (480px'e kadar) */
+@media screen and (max-width: 480px) {
+  .size-options {
+    justify-content: space-between;
+  }
+
+  .size-options label {
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .quantity button,
+  .quantity input {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+
+  .total-details p,
+  .total-title {
+    font-size: 16px;
+  }
+
+  .order-button {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
